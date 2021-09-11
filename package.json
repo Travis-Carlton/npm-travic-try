@@ -1,6 +1,6 @@
 {
 	"name": "@travic/try",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "try catch helper",
 	"main": "lib/src",
 	"types": "lib/src",
