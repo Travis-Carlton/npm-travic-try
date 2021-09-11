@@ -38,3 +38,9 @@ test('Try should give unhandled error in get', () => {
 
 	expect(res).toHaveProperty('unhandled', true);
 });
+
+test('Try should give tried function result in get', () => {
+	const res = Try.of(() => true).onFailure(() => false).get();
+
+	expect(res).toEqual(true);
+});
